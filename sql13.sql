@@ -5,28 +5,28 @@
 -- C:\Program Files\MariaDB 11.3\data\mydb
 
 /*
-mysqldump -u root -p1234 -A < c:/test/maria_backup.sql
+mysqldump -uroot -p1234 -A < c:/test/maria_backup.sql
 
 특정 db 백업
-mysqldump -u root -p1234 mydb < c:/test/mydb_backup.sql
+mysqldump -uroot -p1234 mydb < c:/test/mydb_backup.sql
 
 여러 db 백업
-mysqldump -u root -p1234 --databases mydb mysql < c:/test/mydb_mysql_backup.sql
+mysqldump -uroot -p1234 --databases mydb mysql < c:/test/mydb_mysql_backup.sql
 
 특정 DB의 특정 테이블 백업
-mysqldump -u root -p1234 mydb students < c:/test/mydb_students_backup.sql
+mysqldump -uroot -p1234 mydb students < c:/test/mydb_students_backup.sql
 
 데이터 없이 db구조 백업
-mysqldump -u root -p1234 --no-data -A < c:/test/alldb_schema_only.sql
+mysqldump -uroot -p1234 --no-data -A < c:/test/alldb_schema_only.sql
 
 특정 db의 구조 백업 mydb
-mysqldump -u root -p1234 --no-data mydb < c:/test/mydb_schema_only.sql
+mysqldump -uroot -p1234 --no-data mydb < c:/test/mydb_schema_only.sql
 
 전체 복원
-mysql -u root -p1234 -A < c:/test/maria_backup.sql
+mysql -uroot -p1234 -A < c:/test/maria_backup.sql
 
 특정 db 복원
-mysql -u root -p1234 mydb < c:/test/mydb_backup.sql
+mysql -uroot -p1234 mydb < c:/test/mydb_backup.sql
 
 */
 
