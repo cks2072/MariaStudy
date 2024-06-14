@@ -8,7 +8,9 @@ INSERT INTO t_member (
 	memPhoneNum 
 ) VALUES 
 	('hong100','1234','홍길동','서울','010-1234-1234'),
-	('hong001','1234','홍길동','대구','010-1234-7777'),
+	('lee001','1234','이순신','대구','010-1234-7777'),
+	('son007','1234','손흥민','대구','010-1234-7777'),
+	('son008','1234','손흥민','서울','010-1234-8888'),
 	('hong200','1234','동순이','부산','010-1234-9999');
 
 DELETE FROM t_member;	
@@ -24,4 +26,6 @@ UPDATE t_member
 WHERE memId = 'HONG100'; 
 
 -- 특정 레코드 삭제
-DELETE FROM t_member WHERE memId = 'hong200';
+DELETE FROM t_member WHERE memId = '444';
+
+SELECT * FROM t_member WHERE memId = '강감찬';
