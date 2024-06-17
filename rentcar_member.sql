@@ -29,3 +29,4 @@ WHERE memId = 'HONG100';
 DELETE FROM t_member WHERE memId = '444';
 
 SELECT * FROM t_member WHERE memId = '강감찬';
+t_cart_member
